@@ -1,0 +1,2 @@
+def transact():
+    print("Transact")
