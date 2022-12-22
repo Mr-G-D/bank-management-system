@@ -1,5 +1,6 @@
 from create_user import create_user
 from check_balance import check_balance
+from transact import transact
 
 print("Welcome to the Bank")
 print('\n')
@@ -25,3 +26,5 @@ if(service == 1):
     create_user()
 elif(service == 2):
     check_balance()
+elif(service == 3):
+    transact()

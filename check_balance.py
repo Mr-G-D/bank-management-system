@@ -10,7 +10,6 @@ def check_account(acc_id):
     if(data):
         return(data[0])
     else:
-        print("No Account Found")
         del(data)
         check_balance('Account not found!')
 
