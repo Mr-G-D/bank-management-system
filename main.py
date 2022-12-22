@@ -1,4 +1,5 @@
 from create_user import create_user
+from check_balance import check_balance
 
 print("Welcome to the Bank")
 print('\n')
